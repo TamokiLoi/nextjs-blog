@@ -10,16 +10,6 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:url" content="http://lakemanga.com" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="My page title" key="title" />
-        <meta property="og:description" content="Your entertaining and descriptive copy here, if your meta description is good, use it." />
-        <meta property="og:image" content="/images/tamoki.jpg" />
-        <meta property="og:image:width" content="600" />
-        <meta property="og:image:height" content="314" />
-        <link rel="icon" href="/favicon.ico" />
-        <title>Create Next App</title> */}
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
